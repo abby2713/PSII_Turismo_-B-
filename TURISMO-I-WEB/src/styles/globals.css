@@ -1,0 +1,188 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.container {
+    display: flex;
+}
+
+.columna-1 {
+    flex: 1;
+    padding: 20px;
+}
+
+.columna-2 {
+    flex: 1;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+input {
+    @apply shadow-lg;
+   
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: black; /* Cambia el color de fondo a negro */
+    color: white;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+    @apply shadow-lg;
+    font-size: 17px;
+  }
+  
+
+  .dashboard-page-section-1{
+    @apply shadow-lg;
+    width: 20%;
+    background: linear-gradient(135deg, #099078, #bcd4a6);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  
+
+  .dashboard-page-section-2 {
+    /* background: linear-gradient(135deg, #0091d1 25%, white 50%, #25a621 75%); */
+    width: 100%;
+    background-size: 1300% 100%;
+    background: linear-gradient(to bottom right, #a9faf3, #cdddf5);
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+    color: black;
+    animation: changeBg 8s linear infinite;
+    align-content: center;
+      
+  }
+  
+  @keyframes changeBg {
+    0% {
+        background-position: 0% 0%;
+    }
+  
+    100% {
+        background-position: 100% 0%;
+    }
+  }
+  .dashboard-user-navigation .active{
+    @apply text-main-text-color;
+  }
+
+  .dashboard-user-navigation {
+    display: flex;
+    align-items: center;
+    color: #b3fa61;
+    font-family: Yantramanav, sans-serif;
+    font-size: auto;
+    font-weight: bold; /* Agrega esta línea para hacer el texto en negrita */
+    margin: auto;
+    align-content: center;
+  }
+  
+  .navbar{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    background-color: #0091d1;
+    @apply shadow-lg;
+    
+  }
+
+  .dashboard-user-details img {
+    
+    width: 150px;
+    height: 130px;
+    
+    
+    
+  }
+
+.locations-form{
+  width: 60%;  
+  max-height: 98vh;
+  overflow-y: auto;
+
+  background: linear-gradient(135deg, #099078, #bcd4a6);
+  color: black;
+  padding: 1%;
+  margin: 20px;
+  margin-left: 20%;
+  align-items: center;
+ 
+}
+
+.locations-form input{
+ 
+  
+  background-color: white;
+  
+}
+.button-with-radius {
+  border-radius: 10px;
+}
+
+.bg-secondary-bg-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49, 142, 99);
+}
+.locations-list{
+  /* background: linear-gradient(135deg, #0091d1 25%, white 50%, #25a621 75%); */
+  width: unset;
+  height: 100%;
+  max-height: 98vh;
+  overflow-y: auto;
+  background-size: 1300% 100%;
+  background: linear-gradient(to bottom right, #a9faf3, #cdddf5);
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: transparent;
+  animation: changeBg 8s linear infinite;
+}
+
+.searcher{
+ width: 30%;
+ padding: 1%;
+ background-color: black;
+ color: white;
+ margin: 5px;
+ align-items: center;
+}
+
+@keyframes changeBg {
+  0% {
+      background-position: 0% 0%;
+  }
+
+  100% {
+      background-position: 100% 0%;
+  }
+}
+
+
+.locations-form textarea{
+  min-height:70px;
+  color: black;
+}
+
+.locations-list .card img{
+  width: 100%;
+  height:15vh;
+  object-fit: cover;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

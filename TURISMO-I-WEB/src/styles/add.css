@@ -1,0 +1,88 @@
+.app-img img{
+  border-radius: 60%;
+  border: 1px solid white;
+  width: 100px!important;
+  height: 100px!important;
+}
+
+.app-img-2 img{
+  width: 370px!important;
+  height: 370px!important;
+}
+
+.app-img h4{
+  color: white;
+}
+
+.app-img h3{
+  color: white;
+}
+
+.app-nav .active{
+  color: white;
+}
+
+
+.app-nav ul li {
+  color: white;
+}
+
+.app-nav ul li a {
+  text-decoration: none;
+  color:white;
+}
+
+.app-nav h4 {
+  color: white;
+}
+
+.app-nav {
+  padding: 0 20px;
+}
+
+.app-menu {
+    padding: 30px;
+    width: 100%;
+}
+
+.app-menu h2{
+  border: 1px solid white;
+}
+
+
+form{
+ margin: 5px;
+ padding: 5px;
+}
+
+form label{
+  color: rgb(253, 253, 253);
+}
+
+
+.app-dental{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.home-page-1 label{
+  text-align: left;
+}
+input[type="file" i] {
+  appearance: menulist-button;
+
+  cursor: default;
+  align-items: flex-start;
+  color: rgb(253, 253, 253);
+  text-overflow: ellipsis;
+  white-space: pre;
+  text-align: start !important;
+  padding: initial;
+  border: initial;
+  overflow: hidden !important;
+}
+.active{
+  color: white!important;
+}
