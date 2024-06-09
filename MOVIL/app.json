@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "turismo-ii-movil",
+    "slug": "turismo-ii-movil",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/LogoNew.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1E1E"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.juan934.turismoiimovil",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDHY84swwCFM8w4AF774aQcLen1PBIytgI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13e08e6d-6404-4779-957c-b1b521117c32"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow turismo-ii-movil to use your location."
+        }
+      ]
+    ]
+  }
+}
